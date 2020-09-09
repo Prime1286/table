@@ -1,0 +1,122 @@
+body {
+background-color: #ECF0F3;  
+font-family: 'Segoe UI';  
+}
+.container {
+max-width: 1440px;
+width: 100%;
+margin: auto;
+padding: 80px 0 200px;  
+}
+.main-table {
+max-width: 640px;
+padding:22px 0 0;
+background-color: #fff;  
+margin: auto;  
+}
+.main-table__top {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 25px;    
+}
+.main-table__title {
+font-size: 24px;
+font-weight: bold;    
+color:#000;
+}
+.reset-btn {
+font-size:16px;  
+color:#888888;
+cursor: not-allowed;
+display: flex;
+}
+.reset-btn.active {
+color:#0075FF;
+cursor: pointer;    
+}
+.reset-btn.active .reset-icon path{
+fill:#0075FF;    
+}
+.reset-icon {
+margin-right: 5px;    
+}
+.main-table__inner {
+margin-top: 23px;
+}
+.main-table__subtitle {
+border: 1px solid #E5E5E5;    
+border-right-color: transparent;
+border-left-color: transparent;    
+display: flex;
+justify-content: space-between;
+align-items: center;  
+min-height: 32px;  
+flex-wrap: wrap;
+}
+a.checkbox {
+font-size: 12px;
+text-transform: uppercase;
+display: block;
+color:#000;   
+height: 30px;
+display: flex;
+align-items: center; 
+}
+.checkbox img {
+margin-right: 5px;    
+}
+.main-table__subtitle div { 
+border-right: 1px solid #E5E5E5;   
+height: 100%;   
+display: flex;
+/* flex: auto;   */
+}
+.main-table__subtitle div:last-child { 
+border-right-color: transparent;      
+}
+.main-table__id {
+min-width:10.9%; 
+justify-content: center;  
+}
+.main-table__name {
+min-width: 28.9%;    
+padding-left: 8px;
+}
+.main-table__year {
+min-width: 12.5%;    
+justify-content: center;
+}
+.main-table__color {
+min-width: 20%;    
+padding-left: 8px;
+}
+.main-table__value, .main-table__pantone_value{
+min-width:27.3%;    
+padding-left: 8px;
+}
+.main-table__row {
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-bottom: 1px solid #E5E5E5;  
+min-height: 42px;
+}
+.main-table__row div {
+display: flex;   
+/* flex: auto;  */
+font-size: 16px;
+color:#000;
+}
+.color-demo {
+display: block;
+width: 16px;
+height: 16px;
+margin-right: 5px;    
+}
+.main-table__name span::first-letter {
+text-transform: capitalize;
+}
+div.hidden {
+display: none;    
+}
